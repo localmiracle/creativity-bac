@@ -3,6 +3,7 @@ import { TrackStatusModule } from "./trackStatus/trackStatus.module";
 import { StudioModule } from "./studio/studio.module";
 import { TrackModule } from "./track/track.module";
 import { UserModule } from "./user/user.module";
+import { StatusModule } from "./status/status.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -19,6 +20,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     StudioModule,
     TrackModule,
     UserModule,
+    StatusModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
